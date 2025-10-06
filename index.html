@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Perpustakaan SMP Negeri 1 Pebayuran</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">SMPN 1 Pebayuran</div>
+      <ul class="nav-links">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#koleksi">Koleksi</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <section id="beranda" class="hero">
+      <img class="hero-bg" src="assets/images/hero.svg" alt="" aria-hidden="true">
+      <div class="hero-content container">
+        <h1>Perpustakaan<br/>SMP Negeri 1 Pebayuran</h1>
+        <p class="lead">Ruang ilmu, sumber inspirasi untuk siswa dan guru.</p>
+        <p class="address">Jl. Raya Pebayuran No.12, Kertasari, Kec. Pebayuran, Kabupaten Bekasi, Jawa Barat 17710</p>
+        <div class="hero-actions">
+          <a class="btn" href="#koleksi">Lihat Koleksi</a>
+          <a class="btn ghost" href="#kontak">Hubungi Kami</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="koleksi" class="section container">
+      <h2>Koleksi Unggulan</h2>
+      <p class="muted">Beberapa sampel buku yang tersedia di perpustakaan.</p>
+
+      <div class="search-row">
+        <input id="search" type="search" placeholder="Cari judul, pengarang, atau topik..." />
+      </div>
+
+      <div id="books" class="cards">
+        <!-- Cards inserted by JS -->
+      </div>
+    </section>
+
+    <section id="galeri" class="section container">
+      <h2>Galeri</h2>
+      <div class="gallery">
+        <div class="photo"><img src="assets/images/pattern.svg" alt="Foto Ruang 1"></div>
+        <div class="photo"><img src="assets/images/pattern.svg" alt="Foto Rak Buku"></div>
+        <div class="photo"><img src="assets/images/pattern.svg" alt="Kegiatan Membaca"></div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section container contact">
+      <h2>Kontak & Info</h2>
+      <p>Alamat: <strong>Jl. Raya Pebayuran No.12, Kertasari, Kec. Pebayuran, Kabupaten Bekasi, Jawa Barat 17710</strong></p>
+      <p>Telepon: <strong>(021) - (isi jika ada)</strong></p>
+      <p>Email: <strong>perpustakaan@smpn1pebayuran.sch.id</strong></p>
+      <h3>Jam Layanan</h3>
+      <ul>
+        <li>Senin - Jumat: 07.00 - 15.00</li>
+        <li>Sabtu: 08.00 - 12.00</li>
+        <li>Minggu: Libur</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Perpustakaan SMP Negeri 1 Pebayuran · Dibuat untuk tujuan internal sekolah</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,9 +1,9 @@
 // Sample data and small interactive features
 const books = [
-  {title:'Ensiklopedia Anak', author:'Tim Ilmu', year:2019, topics:['ensiklopedia','pengetahuan']},
-  {title:'Matematika SMP Kelas 8', author:'Budi Santoso', year:2021, topics:['matematika','pelajaran']},
-  {title:'Sejarah Indonesia Ringkas', author:'Ani Wijaya', year:2018, topics:['sejarah','sosial']},
-  {title:'Cerita Rakyat Jawa Barat', author:'Dewi', year:2016, topics:['cerita','kebudayaan']},
+  {title:'Sekolah Adiwiyata', author:'Drs. endang haris, Drs. H. Abas & Yedi wardiana,M.Pd', year:2018, topics:['kurikulum berbasis lingkungan,','non fiksi']},
+  {title:'Panduan Pendidikan Anti Korupsi', author:'Ranti Febriani, Eliya Sevawati', year:2021, topics:['non Fiksi','Pengetahuan']},
+  {title:'Para Pencari Keadilan', author:'Pipiet Senja', year:2015, topics:['fiksi','sosial']},
+  {title:'Kerja terbaik', author:'cut dian tarakavita', year:2011, topics:['non fiksi','cerita']},
 ];
 
 function renderBooks(filter=''){

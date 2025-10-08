@@ -1,5 +1,5 @@
 /* ==============================
-   Simple modern style – Revisi 2025
+   Simple modern style – Revisi 2025 (Final)
    ============================== */
 :root {
   --bg: #f8fafc;
@@ -242,22 +242,33 @@ body {
 .visi-misi h2 {
   text-align: center;
   color: var(--accent);
+  margin-bottom: 8px;
+}
+
+/* NPP tepat di bawah judul, tanpa bold */
+.visi-misi .npp {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 400; /* tidak tebal */
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  margin-top: -4px;
   margin-bottom: 18px;
 }
 
 /* Lead khusus di section Visi & Misi */
 #visi-misi .lead {
-  color: rgba(0, 0, 0, 0.85); /* hitam agak pudar */
-  font-weight: 600; /* tampak tegas */
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
   text-align: center;
-  font-size: 1.05rem; /* sedikit lebih besar dari teks biasa */
-  letter-spacing: 1.2px; /* jarak antar huruf agar terlihat resmi */
-  text-transform: uppercase; /* membuat huruf kapital agar seperti identitas NPP */
+  font-size: 1.05rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
   text-shadow:
     1px 0 1px rgba(0, 0, 0, 0.6),
     -1px 0 1px rgba(0, 0, 0, 0.6),
     0 1px 1px rgba(0, 0, 0, 0.6),
-    0 -1px 1px rgba(0, 0, 0, 0.6); /* outline halus dan tegas */
+    0 -1px 1px rgba(0, 0, 0, 0.6);
   margin-bottom: 22px;
 }
 

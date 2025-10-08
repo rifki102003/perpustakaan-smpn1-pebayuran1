@@ -248,13 +248,16 @@ body {
 /* Lead khusus di section Visi & Misi */
 #visi-misi .lead {
   color: rgba(0, 0, 0, 0.85); /* hitam agak pudar */
-  font-weight: 600;
+  font-weight: 600; /* tampak tegas */
   text-align: center;
+  font-size: 1.05rem; /* sedikit lebih besar dari teks biasa */
+  letter-spacing: 1.2px; /* jarak antar huruf agar terlihat resmi */
+  text-transform: uppercase; /* membuat huruf kapital agar seperti identitas NPP */
   text-shadow:
     1px 0 1px rgba(0, 0, 0, 0.6),
     -1px 0 1px rgba(0, 0, 0, 0.6),
     0 1px 1px rgba(0, 0, 0, 0.6),
-    0 -1px 1px rgba(0, 0, 0, 0.6); /* outline tegas tipis di semua sisi */
+    0 -1px 1px rgba(0, 0, 0, 0.6); /* outline halus dan tegas */
   margin-bottom: 22px;
 }
 

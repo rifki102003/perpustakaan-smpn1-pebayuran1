@@ -1,4 +1,6 @@
-/* Simple modern style */
+/* ==============================
+   Simple modern style – Revisi 2025
+   ============================== */
 :root {
   --bg: #f8fafc;
   --card: #ffffff;
@@ -24,7 +26,9 @@ body {
   margin: 0 auto;
 }
 
-/* Header / Nav */
+/* ==============================
+   Header / Navigation
+   ============================== */
 .site-header {
   position: relative;
   overflow: hidden;
@@ -56,7 +60,9 @@ body {
   font-weight: 600;
 }
 
-/* Hero */
+/* ==============================
+   Hero Section
+   ============================== */
 .hero {
   min-height: 420px;
   display: flex;
@@ -97,6 +103,7 @@ body {
   line-height: 1.05;
 }
 
+/* Lead umum – untuk teks di hero (putih lembut) */
 .lead {
   margin: 0 0 10px;
   color: rgba(255, 255, 255, 0.85);
@@ -128,7 +135,9 @@ body {
   color: white;
 }
 
-/* Sections */
+/* ==============================
+   Sections
+   ============================== */
 .section {
   padding: 44px 0;
 }
@@ -166,7 +175,9 @@ body {
   color: var(--muted);
 }
 
-/* Gallery */
+/* ==============================
+   Gallery
+   ============================== */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -181,7 +192,9 @@ body {
   display: block;
 }
 
-/* Contact & footer */
+/* ==============================
+   Contact & Footer
+   ============================== */
 .contact ul {
   margin: 6px 0 0;
   padding-left: 18px;
@@ -196,7 +209,9 @@ body {
   font-size: 0.95rem;
 }
 
-/* Search */
+/* ==============================
+   Search Input
+   ============================== */
 .search-row {
   margin-top: 8px;
 }
@@ -208,7 +223,9 @@ body {
   border: 1px solid rgba(15,23,42,0.08);
 }
 
-/* ===== Visi & Misi ===== */
+/* ==============================
+   VISI & MISI Section
+   ============================== */
 .visi-misi {
   background: linear-gradient(180deg, #e9efff 0%, #f8fafc 100%);
   border-radius: 14px;
@@ -228,6 +245,19 @@ body {
   margin-bottom: 18px;
 }
 
+/* Lead khusus di section Visi & Misi */
+#visi-misi .lead {
+  color: rgba(0, 0, 0, 0.85); /* hitam agak pudar */
+  font-weight: 600;
+  text-align: center;
+  text-shadow:
+    1px 0 1px rgba(0, 0, 0, 0.6),
+    -1px 0 1px rgba(0, 0, 0, 0.6),
+    0 1px 1px rgba(0, 0, 0, 0.6),
+    0 -1px 1px rgba(0, 0, 0, 0.6); /* outline tegas tipis di semua sisi */
+  margin-bottom: 22px;
+}
+
 .visi-misi .content {
   display: grid;
   gap: 20px;
@@ -238,7 +268,7 @@ body {
   margin-bottom: 6px;
 }
 
-.visi-misi p, 
+.visi-misi p,
 .visi-misi ul {
   color: var(--muted);
   line-height: 1.6;
@@ -249,7 +279,9 @@ body {
   list-style-type: square;
 }
 
-/* Responsive */
+/* ==============================
+   Responsive
+   ============================== */
 @media (max-width:700px) {
   .nav-links { display: none; }
   .hero h1 { font-size: 1.6rem; }
